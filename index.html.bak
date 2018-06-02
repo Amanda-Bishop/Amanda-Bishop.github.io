@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lora|Poiret+One" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Amanda Bishop</title>
+	</head>
+	<body class="home">
+		<div class="page-wrap">
+			<header>
+				<h1>Amanda Bishop</h1>
+				<h2>High School Student</h2>
+
+			</header>
+			<nav>					
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+		<footer>
+<p>&copy; 2018 by Amanda Bishop</p>
+		</footer>
+	</body>
+</html>
