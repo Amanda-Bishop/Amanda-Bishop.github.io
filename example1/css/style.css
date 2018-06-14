@@ -50,6 +50,14 @@ footer {
   text-align: center;
   padding: 1px;
 }
+ul {
+  padding: 0px 500px 0px 500px;
+  font-size: 20px;
+}
+li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .ella-img {
   padding: 20px;
   float: left;

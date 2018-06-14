@@ -1,0 +1,76 @@
+/*font-family: 'Cormorant Unicase', serif;
+font-family: 'Cinzel', serif;
+font-family: 'EB Garamond', serif;*/
+h1{
+  font-family: 'Cormorant Unicase', serif;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+body{
+  background: #222222;
+}
+p{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+h2{
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+a{
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+.example{
+  font-size: 20px;
+}
+.bg-who, .bg-what, .bg-where, .bg-when, .bg-why{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .bg-who {
+    background-image: url();
+    min-height: 400px;
+  }
+
+  .bg-what {
+    background-image: url("FIRST Robotics 2.jpg");
+    min-height: 400px;
+  }
+
+  .bg-where {
+    background-image: url("maxresdefault.jpg");
+    min-height: 400px;
+  }
+
+  .bg-when {
+    background-image: url("maxresdefault.jpg");
+    min-height: 400px;
+  }
+
+  .bg-why {
+    background-image: url("maxresdefault.jpg");
+    min-height: 400px;
+  }
+
+.text-area {
+    height:500px;
+    background-color:red;
+    font-size:36px;
+  }
