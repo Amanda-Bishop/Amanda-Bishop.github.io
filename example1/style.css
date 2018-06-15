@@ -1,0 +1,99 @@
+/*font-family: 'Mountains of Christmas', cursive;
+font-family: 'Mirza', cursive; */
+html, body{
+  height: 100%;
+  background: #222222;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  padding: 40px 60px 40px 60px;;
+  float: left;
+  color: white;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 70px;
+}
+a{
+  text-decoration: none;
+  font-family: 'Mirza', cursive;
+  color: white;
+  font-size: 30px;
+  padding: 20px 30px;
+}
+main {
+  padding: 20px 30px;
+  clear: both;
+}
+p {
+  float: none;
+  font-family: 'Mirza', cursive;
+  color: white;
+  font-size: 30px;
+}
+blockquote {
+  float: none;
+  font-family: 'Mirza', cursive;
+  color: white;
+  font-size: 35px;
+  padding: 20px 300px;
+}
+.gryffindor-img {
+  float: left;
+  padding: 20px;
+}
+.slytherin-img {
+  float: left;
+  padding: 20px;
+}
+.ravenclaw-img {
+  float: left;
+  padding: 20px;
+}
+.hufflepuff-img {
+  float: left;
+  padding: 20px;
+}
+.home {
+  background: url(../images/greathall.jpeg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.gryffindor {
+  background: url(../images/gcommon.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.slytherin {
+  background: url(../images/scommon.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.ravenclaw {
+  background: url(../images/rcommon.jpg);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+}
+.hufflepuff {
+  background: url(../images/hcommon.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.g-link:hover {
+    color: red;
+}
+.s-link:hover {
+    color: green;
+}
+.r-link:hover {
+    color: blue;
+}
+.h-link:hover {
+    color: yellow;
+}
