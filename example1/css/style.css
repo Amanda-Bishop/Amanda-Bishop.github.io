@@ -1,81 +1,99 @@
-/* font-family: 'Lora', serif;
-font-family: 'Dancing Script', cursive;
-font-family: 'Poiret One', cursive; */
-html, body {
+/*font-family: 'Mountains of Christmas', cursive;
+font-family: 'Mirza', cursive; */
+html, body{
   height: 100%;
+  background: #222222;
 }
 body {
-  background: aliceblue;
-  font-family: 'Lora', serif;
   padding: 0px;
   margin: 0px;
 }
-h1, h2 {
-  font-family: 'Poiret One', cursive;
-  color: lightslategrey;
-  margin: 0;
-}
-a {
-  color: lightslategrey;
-  text-decoration: none;
-}
-nav{
-  padding: 20px 30px;
-  float: right;
-}
-nav a {
-  padding: 20px;
-}
-header {
-  padding: 20px 30px;
+h1 {
+  padding: 40px 60px 40px 60px;;
   float: left;
+  color: white;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 70px;
 }
-main{
+a{
+  text-decoration: none;
+  font-family: 'Mirza', cursive;
+  color: white;
+  font-size: 30px;
+  padding: 200px 30px;
+}
+main {
   padding: 20px 30px;
   clear: both;
 }
-body main p {
-  padding: 60px 80px 60px 80px;
-  font-size: 20px;
+p {
+  float: none;
+  font-family: 'Mirza', cursive;
+  color: white;
+  font-size: 30px;
 }
 blockquote {
-  clear: both;
-  text-align: center;
-  font-family: 'Poiret One', cursive;
-  font-size: 30px;
-  color: lightslategrey;
+  float: none;
+  font-family: 'Mirza', cursive;
+  color: white;
+  font-size: 35px;
+  padding: 20px 300px;
 }
-footer {
-  background: white;
-  text-align: center;
-  padding: 1px;
-}
-ul {
-  padding: 0px 500px 0px 500px;
-  font-size: 20px;
-}
-li{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.ella-img {
-  padding: 20px;
+.gryffindor-img {
   float: left;
+  padding: 20px;
+}
+.slytherin-img {
+  float: left;
+  padding: 20px;
+}
+.ravenclaw-img {
+  float: left;
+  padding: 20px;
+}
+.hufflepuff-img {
+  float: left;
+  padding: 20px;
 }
 .home {
-  background: url(../images/background-5.jpg);
+  background: url(../images/greathall.jpeg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
-.page-wrap {
-  min-height: 100%;
-  margin-bottom: -55px;
+.gryffindor {
+  background: url(../images/gcommon.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
-.page-wrap:after {
-  content: "";
-  display: block;
+.slytherin {
+  background: url(../images/scommon.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
-footer, .page-wrap:after {
-  height: 55px;
+.ravenclaw {
+  background: url(../images/rcommon.jpg);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+}
+.hufflepuff {
+  background: url(../images/hcommon.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.g-link:hover {
+    color: red;
+}
+.s-link:hover {
+    color: green;
+}
+.r-link:hover {
+    color: blue;
+}
+.h-link:hover {
+    color: yellow;
 }
