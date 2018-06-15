@@ -39,6 +39,9 @@ nav{
 .example{
   font-size: 30px;
 }
+.example:hover {
+    color: #559944;
+}
 .heading-why {
   padding-top: 20px;
 }
