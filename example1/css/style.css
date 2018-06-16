@@ -59,7 +59,7 @@ blockquote {
   padding: 20px;
 }
 .home {
-  background: url(images/greathall.jpeg);
+  background: url(../images/greathall.jpeg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
