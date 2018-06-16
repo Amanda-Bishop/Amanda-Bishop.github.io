@@ -1,16 +1,19 @@
 /*font-family: 'Cormorant Unicase', serif;
 font-family: 'Cinzel', serif;
 font-family: 'EB Garamond', serif;*/
-h1{
+
+h1 {
   font-family: 'Cormorant Unicase', serif;
   color: white;
   font-size: 60px;
   text-align: center;
 }
-body{
+
+body {
   background: #222222;
 }
-p{
+
+p {
   font-family: 'EB Garamond', serif;
   font-size: 30px;
   color: white;
@@ -18,14 +21,16 @@ p{
   padding-left: 120px;
   padding-right: 120px;
 }
-h2{
+
+h2 {
   font-family: 'Cinzel', serif;
   font-size: 30px;
   color: white;
   text-align: center;
   padding-top: 80px;
 }
-a{
+
+a {
   font-family: 'Cinzel', serif;
   font-size: 25px;
   color: white;
@@ -33,74 +38,81 @@ a{
   padding: 10px 20px 10px 20px;
   text-align: center;
 }
-nav{
+
+nav {
   text-align: center;
 }
-.example{
+
+.example {
   font-size: 30px;
 }
+
 .example:hover {
-    color: #559944;
+  color: #559944;
 }
+
 .heading-why {
   padding-top: 20px;
 }
-.who-p{
+
+.who-p {
   padding-left: 70px;
   padding-right: 70px;
 }
-.bg-who, .bg-what, .bg-where, .bg-when, .bg-why{
+
+.bg-who, .bg-what, .bg-where, .bg-when, .bg-why {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
 .bg-who {
   background-image: url(images/Who.jpg);
   min-height: 400px;
-  }
+}
 
 .bg-what {
   background-image: url(images/What.jpg);
   min-height: 400px;
-  }
+}
 
 .bg-where {
   background-image: url(images/Where.jpg);
   min-height: 400px;
-  }
+}
 
 .bg-when {
   background-image: url(images/When.jpg);
   min-height: 400px;
-  }
+}
 
 .bg-why {
   background-image: url(images/Why.jpg);
   min-height: 400px;
-  }
+}
 
 .bg-register {
   background-image: url(images/Register.jpg);
   min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
-.eventbrite{
+.eventbrite {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .text-area {
-  height:400px;
-  background-color:#222222;
-  font-size:36px;
-  }
+  height: 400px;
+  background-color: #222222;
+  font-size: 36px;
+}
+
 .text-area-last {
-  height:600px;
-  background-color:#222222;
-  font-size:36px;
-  }
+  height: 600px;
+  background-color: #222222;
+  font-size: 36px;
+}
