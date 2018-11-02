@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Krub|Montserrat');
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Krub', sans-serif;*/
+
+body {
+  background-color: #e6f2e6;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 80px;
+  margin: 80px;
+  margin-right: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333448;
+  font-size: 50px;
+  margin: 50px;
+}
+
+p {
+  font-family: 'Krub', sans-serif;
+  color: #333448;
+  font-size: 25px;
+  margin: 80px;
+}
+
+.about {
+  background-color: #9bd1d3;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title{
+  background-image: url("images/background.jpg");
+}
+
+
+.hvrbox {
+	/* display: inline-block;
+  overflow: hidden;
+ */
+	max-width: 300px;
+	height: auto;
+  position: relative;
+  float: left;
+  margin: 10px 10px;
+}
+.hvrbox img {
+	max-width: 300px;
+}
+.hvrbox-mco .hvrbox-bottom-mco {
+	/*display: block;*/
+}
+.hvrbox .hvrbox-top {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0;
+	bottom: 0;
+	width: 80%;
+	height: 80%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	margin: 10px;
+  margin: auto;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-top,
+.hvrbox.active .hvrbox-top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  font-family: 'Krub', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-family: 'Krub', sans-serif;
+	font-size: 13px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+  padding-right: 10px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	/*display: block;*/
+}
+
+.clubs-imgs {
+  /*text-align: center;*/
+  float: left;
+  margin: auto;
+  width: 1300px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.clubs-all {
+  padding-top: 100px;
+  padding-bottom: 1100px;
+}
+
+.movie {
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.movie-imgs {
+  text-align: center;
+  /*float: left;*/
+  margin: auto;
+  width: 1200px;
+}
+
+.movies-all {
+  background-color: #9bd1d3;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.apps {
+  width: 200px;
+}
+
+.apps-sqr {
+  width: 200px;
+  border-radius: 50px;
+}
+
+.apps-imgs {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+}
+
+.apps-all {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.music {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.music-all {
+  background-color: #9bd1d3;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.books {
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.book-imgs {
+  text-align: center;
+/*  float: left;*/
+  margin: auto;
+  width: 1200px;
+}
+
+.books-all {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.write {
+  text-align: center;
+/*  float: left;*/
+  margin: auto;
+  width: 1200px;
+}
+
+.write-all {
+  background-color: #9bd1d3;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.fb {
+  border-radius: 50%;
+  width: 250px;
+  margin: 50px 125px;
+}
+
+.fb-circles {
+  text-align: center;
+/*  float: left;*/
+  margin: auto;
+  width: 1200px;
+}
+
+.fb-all {
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.icon {
+  width: 300px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 80px;
+}
