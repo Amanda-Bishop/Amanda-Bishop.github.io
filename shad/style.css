@@ -108,16 +108,18 @@ p {
 
 .clubs-imgs {
   /*text-align: center;*/
-  float: left;
+  /*float: left;*/
   margin: auto;
-  width: 1300px;
+  width: 975px;
   padding-left: 250px;
   padding-right: 250px;
 }
 
 .clubs-all {
+  max-width: 100%;
+  overflow: hidden;
   padding-top: 100px;
-  padding-bottom: 1100px;
+  padding-bottom: 100px;
 }
 
 .movie {
