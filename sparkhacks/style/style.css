@@ -7,10 +7,26 @@ body {
   background-color: #080828;
   margin: 0;
   padding: 0;
+  font-size: 30px
 }
 
-h1, h2{
+h1{
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 80px;
+}
+
+.section {
+  padding-left: 40px;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 75px;
+  border-width: 18.5px 14px 18.5px 0;
+}
+
+.fp-controlArrow.fp-next {
+  right: 75px;
+  border-width: 18.5px 0 18.5px 14px;
 }
 
 #why {
