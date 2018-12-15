@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway');
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #ececec;
+  background-color: #080828;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#why {
+  background-color: #483048;
+}
+
+#three {
+  background-color: #633875;
+}
