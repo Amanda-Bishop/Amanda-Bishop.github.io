@@ -16,7 +16,7 @@ h1{
 }
 
 .section {
-  padding: 0 40px;
+  padding: 0 60px;
 }
 
 .fp-controlArrow.fp-prev {
@@ -27,6 +27,20 @@ h1{
 .fp-controlArrow.fp-next {
   right: 75px;
   border-width: 18.5px 0 18.5px 14px;
+}
+
+.layout{
+  float: right;
+  width: 30%;
+  padding: 0 40px;
+}
+
+.title{
+  float: left;
+}
+
+.intro{
+  clear: both;
 }
 
 #why {
