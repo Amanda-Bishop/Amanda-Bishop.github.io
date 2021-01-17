@@ -69,75 +69,87 @@ window.onload = function(){
        
 
         document.getElementById('name-a').innerHTML = matches[0].name;
-        var courseStr;
+        var courseStrA;
         for (var course=0; course<matches[0].courses.length; course++) {
-            courseStr += matches[0].courses[course];
+            if (matches[0].courses[course] != "undefined") {
+                courseStrA += matches[0].courses[course];
+            }
             if (course != matches[0].courses.length-1) {
-                courseStr += ' ';
+                courseStrA += ' ';
             }
         }
-        document.getElementById('courses-a').innerHTML = courseStr;
+        document.getElementById('courses-a').innerHTML = courseStrA;
         document.getElementById('timezone-a').innerHTML = matches[0].timezone;
         document.getElementById('tod-a').innerHTML = matches[0].time;
         document.getElementById('focus-a').innerHTML = matches[0].focus;
         document.getElementById('style-a').innerHTML = matches[0].style;
         if (matches[0].group.length != 0) {
-            var groupStr;
+            var groupStrA;
             for (var p=0; p<matches[0].group.length; p++) {
-                groupStr += matches[0].group[p];
+                if (matches[0].group[p] != "undefined") {
+                    groupStrA += matches[0].group[p];
+                }
                 if (p != matches[0].group.length-1) {
-                    groupStr += ' ';
+                    groupStrA += ' ';
                 }
             }
-            document.getElementById('group-a').innerHTML = groupStr;
+            document.getElementById('group-a').innerHTML = groupStrA;
         }
 
         document.getElementById('name-g').innerHTML = matches[1].name;
-        var courseStr;
+        var courseStrG;
         for (var course=0; course<matches[1].courses.length; course++) {
-            courseStr += matches[1].courses[course];
+            if (matches[1].courses[course] != "undefined") {
+                courseStrG += matches[1].courses[course];
+            }
             if (course != matches[1].courses.length-1) {
-                courseStr += ' ';
+                courseStrG += ' ';
             }
         }
-        document.getElementById('courses-g').innerHTML = courseStr;
+        document.getElementById('courses-g').innerHTML = courseStrG;
         document.getElementById('timezone-g').innerHTML = matches[1].timezone;
         document.getElementById('tod-g').innerHTML = matches[1].time;
         document.getElementById('focus-g').innerHTML = matches[1].focus;
         document.getElementById('style-g').innerHTML = matches[1].style;
         if (matches[1].group.length != 0) {
-            var groupStr;
+            var groupStrG;
             for (var p=0; p<matches[1].group.length; p++) {
-                groupStr += matches[1].group[p];
+                if (matches[1].group[p] != "undefined") {
+                    groupStrG += matches[1].group[p];
+                }
                 if (p != matches[1].group.length-1) {
-                    groupStr += ' ';
+                    groupStrG += ' ';
                 }
             }
-            document.getElementById('group-g').innerHTML = groupStr;
+            document.getElementById('group-g').innerHTML = groupStrG;
         }
 
         document.getElementById('name-j').innerHTML = matches[2].name;
-        var courseStr;
+        var courseStrJ;
         for (var course=0; course<matches[2].courses.length; course++) {
-            courseStr += matches[2].courses[course];
+            if (matches[2].courses[course] != "undefined") {
+                courseStrJ += matches[2].courses[course];
+            }
             if (course != matches[2].courses.length-1) {
-                courseStr += ' ';
+                courseStrJ += ' ';
             }
         }
-        document.getElementById('courses-j').innerHTML = courseStr;
+        document.getElementById('courses-j').innerHTML = courseStrJ;
         document.getElementById('timezone-j').innerHTML = matches[2].timezone;
         document.getElementById('tod-j').innerHTML = matches[2].time;
         document.getElementById('focus-j').innerHTML = matches[2].focus;
         document.getElementById('style-j').innerHTML = matches[2].style;
         if (matches[2].group.length != 0) {
-            var groupStr;
+            var groupStrJ;
             for (var p=0; p<matches[2].group.length; p++) {
-                groupStr += matches[2].group[p];
+                if (matches[2].group[p] != "undefined") {
+                    groupStrJ += matches[2].group[p];
+                }
                 if (p != matches[2].group.length-1) {
-                    groupStr += ' ';
+                    groupStrJ += ' ';
                 }
             }
-            document.getElementById('group-j').innerHTML = groupStr;
+            document.getElementById('group-j').innerHTML = groupStrJ;
         }
         
     
