@@ -24,7 +24,7 @@ body {
 }
 #navbar::before{
     content: "";
-    background-color: #a4ede9;
+    background-color: #75d1cc;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -72,6 +72,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 40px;
     background-color: #a4ede9;
 }
 #home::before{
