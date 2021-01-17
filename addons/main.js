@@ -70,10 +70,8 @@ window.onload = function(){
 
         document.getElementById('name-a').innerHTML = matches[0].name;
         var courseStrA;
-        for (var course=0; course<matches[0].courses.length; course++) {
-            if (matches[0].courses[course] != "undefined") {
+        for (var course=1; course<matches[0].courses.length; course++) {
                 courseStrA += matches[0].courses[course];
-            }
             if (course != matches[0].courses.length-1) {
                 courseStrA += ' ';
             }
@@ -85,10 +83,8 @@ window.onload = function(){
         document.getElementById('style-a').innerHTML = matches[0].style;
         if (matches[0].group.length != 0) {
             var groupStrA;
-            for (var p=0; p<matches[0].group.length; p++) {
-                if (matches[0].group[p] != "undefined") {
+            for (var p=1; p<matches[0].group.length; p++) {
                     groupStrA += matches[0].group[p];
-                }
                 if (p != matches[0].group.length-1) {
                     groupStrA += ' ';
                 }
@@ -98,10 +94,8 @@ window.onload = function(){
 
         document.getElementById('name-g').innerHTML = matches[1].name;
         var courseStrG;
-        for (var course=0; course<matches[1].courses.length; course++) {
-            if (matches[1].courses[course] != "undefined") {
+        for (var course=1; course<matches[1].courses.length; course++) {
                 courseStrG += matches[1].courses[course];
-            }
             if (course != matches[1].courses.length-1) {
                 courseStrG += ' ';
             }
@@ -113,10 +107,8 @@ window.onload = function(){
         document.getElementById('style-g').innerHTML = matches[1].style;
         if (matches[1].group.length != 0) {
             var groupStrG;
-            for (var p=0; p<matches[1].group.length; p++) {
-                if (matches[1].group[p] != "undefined") {
+            for (var p=1; p<matches[1].group.length; p++) {
                     groupStrG += matches[1].group[p];
-                }
                 if (p != matches[1].group.length-1) {
                     groupStrG += ' ';
                 }
@@ -126,10 +118,8 @@ window.onload = function(){
 
         document.getElementById('name-j').innerHTML = matches[2].name;
         var courseStrJ;
-        for (var course=0; course<matches[2].courses.length; course++) {
-            if (matches[2].courses[course] != "undefined") {
+        for (var course=1; course<matches[2].courses.length; course++) {
                 courseStrJ += matches[2].courses[course];
-            }
             if (course != matches[2].courses.length-1) {
                 courseStrJ += ' ';
             }
@@ -141,10 +131,8 @@ window.onload = function(){
         document.getElementById('style-j').innerHTML = matches[2].style;
         if (matches[2].group.length != 0) {
             var groupStrJ;
-            for (var p=0; p<matches[2].group.length; p++) {
-                if (matches[2].group[p] != "undefined") {
+            for (var p=1; p<matches[2].group.length; p++) {
                     groupStrJ += matches[2].group[p];
-                }
                 if (p != matches[2].group.length-1) {
                     groupStrJ += ' ';
                 }
@@ -153,5 +141,5 @@ window.onload = function(){
         }
         
     
-    console.log('updated');
+    console.log('s');
 }
