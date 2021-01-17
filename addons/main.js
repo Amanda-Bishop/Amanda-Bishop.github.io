@@ -93,4 +93,5 @@ window.onload = function(){
         }
         
     }
+    console.log('end');
 }
