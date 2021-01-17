@@ -82,12 +82,15 @@ window.onload = function(){
         document.getElementById('people').innerHTML = matches[match].focus;
         document.getElementById('people').innerHTML = matches[match].style;
         var groupStr;
-        for (var p=0; p<matches[match].group.length; p++) {
-            groupStr += matches[match].group[p];
-            if (p != matches[match].group.length-1) {
-                groupStr += ' ';
+        if (matches[match].group.length != 0) {
+            for (var p=0; p<matches[match].group.length; p++) {
+                groupStr += matches[match].group[p];
+                if (p != matches[match].group.length-1) {
+                    groupStr += ' ';
+                }
             }
+            document.getElementById('people').innerHTML = groupStr;
         }
-        document.getElementById('people').innerHTML = groupStr;
+        
     }
 }
