@@ -67,6 +67,7 @@ function addToTeam(person,memberName) {
 window.onload = function(){
     let matches = findMatches(person);
     for (var match=0; match<matches.length; match++) {
+        console.log(matches[match]);
         document.getElementById('people').innerHTML = matches[match].name;
         var courseStr;
         for (var course=0; course<matches[match].courses.length; course++) {
