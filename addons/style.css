@@ -30,7 +30,6 @@ body {
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.4;
 }
 
 /* Navigation Bar: Logo and Image */
@@ -52,7 +51,7 @@ body {
     font-size: 1.3rem;
 }
 #navbar ul li a{
-    color: white; 
+    color: black; 
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
