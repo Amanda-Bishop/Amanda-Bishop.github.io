@@ -79,7 +79,7 @@ window.onload = function(){
         }
         document.getElementById('courses-a').innerHTML = courseStrA;
         document.getElementById('timezone-a').innerHTML = matches[0].timezone;
-        document.getElementById('tod-a').innerHTML = matches[0].time;
+        document.getElementById('tod-a').innerHTML = matches[0].tod;
         document.getElementById('focus-a').innerHTML = matches[0].focus;
         document.getElementById('style-a').innerHTML = matches[0].style;
         if (matches[0].group.length != 0) {
@@ -103,7 +103,7 @@ window.onload = function(){
         }
         document.getElementById('courses-g').innerHTML = courseStrG;
         document.getElementById('timezone-g').innerHTML = matches[1].timezone;
-        document.getElementById('tod-g').innerHTML = matches[1].time;
+        document.getElementById('tod-g').innerHTML = matches[1].tod;
         document.getElementById('focus-g').innerHTML = matches[1].focus;
         document.getElementById('style-g').innerHTML = matches[1].style;
         if (matches[1].group.length != 0) {
@@ -127,7 +127,7 @@ window.onload = function(){
         }
         document.getElementById('courses-j').innerHTML = courseStrJ;
         document.getElementById('timezone-j').innerHTML = matches[2].timezone;
-        document.getElementById('tod-j').innerHTML = matches[2].time;
+        document.getElementById('tod-j').innerHTML = matches[2].tod;
         document.getElementById('focus-j').innerHTML = matches[2].focus;
         document.getElementById('style-j').innerHTML = matches[2].style;
         if (matches[2].group.length != 0) {
