@@ -69,7 +69,7 @@ window.onload = function(){
     for (var match=0; match<matches.length; match++) {
         console.log(matches[match]);
         document.getElementById('people').innerHTML = matches[match].name;
-        /*var courseStr;
+        var courseStr;
         for (var course=0; course<matches[match].courses.length; course++) {
             courseStr += matches[match].courses[course];
             if (course != matches[match].courses.length-1) {
@@ -90,7 +90,7 @@ window.onload = function(){
                 }
             }
             document.getElementById('people').innerHTML = groupStr;
-        }*/
+        }
         
     }
     console.log('l');
