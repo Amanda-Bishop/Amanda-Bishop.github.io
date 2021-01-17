@@ -153,5 +153,5 @@ window.onload = function(){
         }
         
     
-    console.log('new');
+    console.log('updated');
 }
