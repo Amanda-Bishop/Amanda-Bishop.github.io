@@ -41,9 +41,6 @@ function findMatches(person) {
     return(possibleMatches);
 }
 
-let matches = findMatches(person);
-//console.log(matches);
-
 function addToTeam(person,memberName) {
     person["group"].push(memberName);
     person["wantedMembers"]--;
@@ -67,13 +64,29 @@ function addToTeam(person,memberName) {
     }
 }
 
-addToTeam(person,"Giselle");
-//console.log(person);
-//console.log(students)
-
 window.onload = function(){
-    //let matches = findMatches(person);
-    //console.log(matches);
-    console.log(students[0].name);
-    document.getElementById('name').innerHTML = students[0].name;
+    let matches = findMatches(person);
+    for (var match=0; match<matches.length; match++) {
+        document.getElementById('people').innerHTML = matches[match].name;
+        var courseStr;
+        for (var course=0; course<matches[match].courses.length; course++) {
+            courseStr.concat(matches[match].courses[course]);
+            if (course != matches[match].courses.length-1) {
+                courseStr.concat(' ');
+            }
+        }
+        document.getElementById('people').innerHTML = courseStr;
+        document.getElementById('people').innerHTML = matches[match].timezone;
+        document.getElementById('people').innerHTML = matches[match].time;
+        document.getElementById('people').innerHTML = matches[match].focus;
+        document.getElementById('people').innerHTML = matches[match].style;
+        var groupStr;
+        for (var p=0; p<matches[match].group.length; p++) {
+            groupStr.concat(matches[match].group[p]);
+            if (p != matches[match].group.length-1) {
+                groupStr.concat(' ');
+            }
+        }
+        document.getElementById('people').innerHTML = groupStr;
+    }
 }
