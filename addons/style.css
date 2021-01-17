@@ -75,7 +75,7 @@ body {
 #home::before{
     content: "";
     position: absolute;
-    background: url('banner.jpg') no-repeat center center/cover;
+    /* background: url('banner.jpg') no-repeat center center/cover;*/
     height: 68%;
     width: 120%;
     top: 0px;
@@ -248,7 +248,7 @@ input[type=text], input[type=password] {
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('../contact.jpg') no-repeat center center/cover;
+   /* background: url('../contact.jpg') no-repeat center center/cover;*/
 }
 #contact-box{
     display: flex;
