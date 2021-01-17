@@ -67,8 +67,6 @@ function addToTeam(person,memberName) {
 window.onload = function(){
     let matches = findMatches(person);
 
-        console.log(matches[0]);
-
         document.getElementById('name-a').innerHTML = matches[0].name;
         var courseStrA = '';
         for (var course=0; course<matches[0].courses.length; course++) {
@@ -140,7 +138,4 @@ window.onload = function(){
             }
             document.getElementById('group-j').innerHTML = groupStrJ;
         }
-        
-    
-    console.log('new');
 }
