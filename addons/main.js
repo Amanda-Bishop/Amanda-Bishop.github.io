@@ -81,8 +81,8 @@ window.onload = function(){
         document.getElementById('people').innerHTML = matches[match].time;
         document.getElementById('people').innerHTML = matches[match].focus;
         document.getElementById('people').innerHTML = matches[match].style;
-        var groupStr;
         if (matches[match].group.length != 0) {
+            var groupStr;
             for (var p=0; p<matches[match].group.length; p++) {
                 groupStr += matches[match].group[p];
                 if (p != matches[match].group.length-1) {
