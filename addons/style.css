@@ -23,7 +23,7 @@ body {
 }
 #navbar::before{
     content: "";
-    background-color: black;
+    background-color: #a4ede9;
     position: absolute;
     top: 0px;
     left: 0px;
