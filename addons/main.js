@@ -66,7 +66,8 @@ function addToTeam(person,memberName) {
 
 window.onload = function(){
     let matches = findMatches(person);
-       
+
+        console.log(matches[0]);
 
         document.getElementById('name-a').innerHTML = matches[0].name;
         var courseStrA;
