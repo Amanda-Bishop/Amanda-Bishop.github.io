@@ -70,9 +70,9 @@ window.onload = function(){
         document.getElementById('people').innerHTML = matches[match].name;
         var courseStr;
         for (var course=0; course<matches[match].courses.length; course++) {
-            courseStr.concat(matches[match].courses[course]);
+            courseStr = courseStr.concat(matches[match].courses[course]);
             if (course != matches[match].courses.length-1) {
-                courseStr.concat(' ');
+                courseStr = courseStr.concat(' ');
             }
         }
         document.getElementById('people').innerHTML = courseStr;
@@ -82,9 +82,9 @@ window.onload = function(){
         document.getElementById('people').innerHTML = matches[match].style;
         var groupStr;
         for (var p=0; p<matches[match].group.length; p++) {
-            groupStr.concat(matches[match].group[p]);
+            groupStr = groupStr.concat(matches[match].group[p]);
             if (p != matches[match].group.length-1) {
-                groupStr.concat(' ');
+                groupStr = groupStr.concat(' ');
             }
         }
         document.getElementById('people').innerHTML = groupStr;
