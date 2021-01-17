@@ -84,11 +84,11 @@ body {
     opacity: 2.9;
 }
 #home h1{
-    color: white;
+    color: black;
     text-align: center;
 }
 #home p{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 1.0rem;
     font-family: 'Bree Serif', serif;
